@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./assets/blackjack-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    height: 559px;
+}
+h1{
+    color: goldenrod;
+    margin-top: 50px; 
+    font-size: 3rem; 
+}
+#message-el{
+    padding: 30px;
+    font-size: 2rem;
+    font-style: italic;
+}
+p{
+    padding: 10px;
+    font-size: 2rem;
+}
+#start-game{
+    background-color: goldenrod;
+    color: white;
+    padding: 1rem 3.5rem;
+    border: 1px solid white;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px;
+    
+}
+#start-game:hover{
+    background-color: white;
+    color: goldenrod;
+}
+
